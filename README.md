@@ -26,7 +26,7 @@ https://drive.google.com/file/d/1oSQscpiDDHZ8qvP-j2nmh_2r2TbfWnoP/view?usp=shari
   
 
 - **SRS-02: Coin Value Reading & Balance Update**  
-  .
+  
 
 - **Validation Proof:**  
   
