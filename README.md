@@ -23,52 +23,48 @@ https://drive.google.com/file/d/1oSQscpiDDHZ8qvP-j2nmh_2r2TbfWnoP/view?usp=shari
 
 ## SRS Validation
 - **SRS-01: Coin Detection**  
-  Detected via ultrasonic sensor interrupts and verified using UART logs.
+  
 
 - **SRS-02: Coin Value Reading & Balance Update**  
-  Updates displayed on LCD within 1 second. UART logs confirm real-time updates.
+  .
 
 - **Validation Proof:**  
-  Oscilloscope captures and UART screenshots showing system responses.
+  
 
 ## HRS Validation
 - **HRS-01: Motor Control for Dispensing**  
-  Motor spins correctly on product selection and stops on snack detection.
+  
 
 - **HRS-02: Inventory Tracking**  
-  Inventory is updated after detecting the dropped product using an ultrasonic sensor.
+  
 
 - **Validation Proof:**  
-  Videos and UART debug showing real-time distance detection and item tracking.
+  
 
 ## Conclusion
 - **What did you learn from it?**  
-  Real-world integration of embedded systems and mechanical systems.
+  
   
 - **What went well?**  
-  Coin detection and inventory tracking were reliable and responsive.
+  
 
 - **What accomplishments are you proud of?**  
-  Successful coordination of hardware-software integration.
+ 
 
 - **What did you gain from this experience?**  
-  Practical skills in microcontroller programming, UART, and circuit design.
+  
 
 - **Did you have to change your approach?**  
-  Adjusted coin detection to reduce false triggers caused by mechanical vibration.
+  
 
 - **What could have been done differently?**  
-  Earlier mechanical reinforcement to avoid spiral misalignments.
+  
 
 - **Did you encounter obstacles that you didn’t anticipate?**  
-  Motor mounting challenges and vibration noise affecting ultrasonic readings.
+  
 
 - **What could be a next step for this project?**  
-  Adding RFID authentication for product retrieval and building a multi-row vending structure.
+  
 
 ---
-
-✅ GitHub repository updated.  
-✅ Final video and documentation completed.  
-✅ README meets final project submission guidelines.
 
