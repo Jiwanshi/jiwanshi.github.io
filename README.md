@@ -20,6 +20,22 @@ https://drive.google.com/file/d/1oSQscpiDDHZ8qvP-j2nmh_2r2TbfWnoP/view?usp=shari
 
 <img width="834" alt="Screenshot 2025-04-26 at 11 21 08 PM" src="https://github.com/user-attachments/assets/6dc424a0-e471-4406-ae5e-6ec80e1fdcc1" />
 
+## Two Topics:
+- Timers: Fast PWM for Motor Dispensing
+- Power Management: 10V Supply for Motors and 5V for ATMega
+- ADC: Ultrasonics for coin and snack detection and keypad
+
+## Input Device:
+- Ultrasonic Sensors
+
+## Output Device:  
+- LCD Screen
+
+## Serial Communicaiton:  
+- LCD over I2C
+- UART between 2 ATMegas
+
+
 
 ## SRS Validation
 - **SRS-01: Coin Detection**  
