@@ -35,27 +35,30 @@ https://drive.google.com/file/d/1oSQscpiDDHZ8qvP-j2nmh_2r2TbfWnoP/view?usp=shari
 - LCD over I2C
 - UART between 2 ATMegas
 
-
-
 ## SRS Validation
-- **SRS-01: Coin Detection**  
+- **SRS-01: Coin Detection**
+- The coin is detected using an ultrasonic sensor positioned at the coin slot. An interrupt is triggered within 20 ms of the coin passing the sensor, and a counter is incremented. UART debug logs confirm successful detection and tracking of the number of coins inserted.
   
+- **SRS-02: Snack Detection**
+- After motor activation, an ultrasonic sensor at the dispensing area detects when a snack has fallen. If an object is detected within a specified distance threshold, the system stops the motor to prevent double dispensing. Detection times were verified through UART logs and oscilloscope captures.
 
-- **SRS-02: Coin Value Reading & Balance Update**  
+- **Validation Proof:**
+![IMG_1674](https://github.com/user-attachments/assets/e4a1d21c-961d-4595-978f-c76e7fb4016d)
+<img width="626" alt="Screenshot 2025-04-27 at 9 43 58 PM" src="https://github.com/user-attachments/assets/a4d4515a-b1e3-4f79-affb-f560387c238a" />
+![IMG_1672](https://github.com/user-attachments/assets/050a0c91-823d-4c59-8d10-8e8f168efbf7)
   
-
-- **Validation Proof:**  
-  
-
 ## HRS Validation
 - **HRS-01: Motor Control for Dispensing**  
-  
+The motor activates upon when there is sufficient balance detected and spins at the desired PWM speed. It reliably stops within ±3 seconds of a snack being detected by the ultrasonic sensor, preventing double-dispensing.
 
-- **HRS-02: Inventory Tracking**  
-  
+- **HRS-02: LCD Display Operation**  
+- The LCD operates at 5V and displays clear, readable text within ±5% of the expected contrast level. Text updates are consistent and easily visible under normal lighting conditions.
 
-- **Validation Proof:**  
-  
+- **Validation Proof:**
+<img width="420" alt="Screenshot 2025-04-27 at 10 13 13 PM" src="https://github.com/user-attachments/assets/e448de86-a38e-4837-9cfb-be6b17b1be93" />
+<img width="425" alt="Screenshot 2025-04-27 at 10 12 46 PM" src="https://github.com/user-attachments/assets/a7448f28-bd4c-46ed-af6d-62310423a07d" />
+<img width="364" alt="Screenshot 2025-04-27 at 10 12 35 PM" src="https://github.com/user-attachments/assets/6e40f540-93a5-4938-b0ea-d4f249801052" />
+<img width="240" alt="Screenshot 2025-04-27 at 10 12 21 PM" src="https://github.com/user-attachments/assets/32341e1f-80a3-4e87-bbdf-82493365e56a" />
 
 ## Conclusion
 - **What did you learn from it?**  
