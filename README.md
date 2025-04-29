@@ -64,26 +64,20 @@ The motor activates upon when there is sufficient balance detected and spins at 
 - **What did you learn from it?**  
   
   
-- **What went well?**  
+- **What went well and what did you gain from the experience?**
+From this experience, we learned that adaptability is key in navigating the complexities of project planning. The necessity to pivot when faced with unexpected challenges pushed us to develop creative solutions and fostered a collaborative spirit among the team. Our collaboration was undoubtedly one of the highlights. Despite encountering tough situations such as encountering an error a few minutes away from the final demonstration, we managed to maintain clear communication and supported one another, ensuring that we solved the issue as soon as possible without losing momentum.
   
 
 - **What accomplishments are you proud of?**  
- 
+We took pride in successfully using UART communication between the 2 Atmega328PBs in order to fully complete the dispensing of snacks without any fault. There were many errors that were unknown to us at the time from loose wires to some tiny mistake in the code , but the fact we broke down every single possible detail in order to figure out what was wrong definitely was one of our main strengths in bringing the machine together. 
+Demonstrating a willingness to take a step back in order to reassess and identify areas for improvement in various situations is a notable achievement of which we are proud. Although the decision to revisit our progress may have initially caused feelings of frustration and disappointment, the eventual outcomes validated the effort and proved worthwhile.
 
-- **What did you gain from this experience?**  
-  
-
-- **Did you have to change your approach?**  
-  
-
-- **What could have been done differently?**  
-  
-
-- **Did you encounter obstacles that you didn’t anticipate?**  
+- **Did you have to change your approach and did you encounter obstacles that you didn’t anticipate ?**  
+We did have to change our approach as we faced difficulties with integrating the IR sensors which were too sensitive. However, we quickly brainstormed and switched to using an Ultrasonic sensor. We also changed our design to fit everything perfectly. We also had to account for the speed of the coin to perform the coin detection mechanism and toggle the motors to find the perfect PWM. 
   
 
 - **What could be a next step for this project?**  
-  
+As for next steps,  we should analyze the feedback received on the final product and explore opportunities for enhancements or additional features. This will ensure we continue to innovate and exceed the expectations of our audience. Improved security system by using RFID or contactless payments can further enhance this project as well
 
 ---
 
