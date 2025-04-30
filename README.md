@@ -1,8 +1,6 @@
-# Smart Snacks
+# Smart Snacks - Vending made easy and accesible! 
 
-## Vending made easy and accesible! 
-
-### Final Project Report
+## Final Project Report
 
 ### Final Product Video
 
@@ -54,7 +52,7 @@ https://drive.google.com/file/d/1oSQscpiDDHZ8qvP-j2nmh_2r2TbfWnoP/view?usp=shari
 **SRS-05**
 - The system shall display updated snack stock and balance information on the LCD screen within 3 seconds after a successful coin insertion and snack selection.
 
-- **Validation Proof:**
+**Validation Proof:**
 ![IMG_1674](https://github.com/user-attachments/assets/e4a1d21c-961d-4595-978f-c76e7fb4016d)
 <img width="626" alt="Screenshot 2025-04-27 at 9 43 58 PM" src="https://github.com/user-attachments/assets/a4d4515a-b1e3-4f79-affb-f560387c238a" />
 ![IMG_1672](https://github.com/user-attachments/assets/050a0c91-823d-4c59-8d10-8e8f168efbf7)
@@ -70,7 +68,7 @@ The motor activates upon when there is sufficient balance detected and spins at 
 - Detects dropped snacks effectively within a precise range of 5 cm, utilizing advanced UART communication technology to promptly stop the motor from dispensing any additional snacks when a drop is detected. This innovative feature ensures minimal waste and optimal snack management.
 Detects quarters as they roll down the ramp with a precise range of 4.5cm.
 
-- **Validation Proof:**
+**Validation Proof:**
 <img width="420" alt="Screenshot 2025-04-27 at 10 13 13 PM" src="https://github.com/user-attachments/assets/e448de86-a38e-4837-9cfb-be6b17b1be93" />
 <img width="425" alt="Screenshot 2025-04-27 at 10 12 46 PM" src="https://github.com/user-attachments/assets/a7448f28-bd4c-46ed-af6d-62310423a07d" />
 <img width="364" alt="Screenshot 2025-04-27 at 10 12 35 PM" src="https://github.com/user-attachments/assets/6e40f540-93a5-4938-b0ea-d4f249801052" />
