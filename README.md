@@ -39,19 +39,19 @@ https://drive.google.com/file/d/1oSQscpiDDHZ8qvP-j2nmh_2r2TbfWnoP/view?usp=shari
 - UART between 2 ATMegas
 
 ### SRS Validation
-- **SRS-01**
+**SRS-01**
 - The system shall detect user snack selection through a 3-key keypad and store the selection index within 5 seconds of keypress.
   
-- **SRS-02**
+**SRS-02**
 - Upon coin insertion, the system shall acknowledge the detection within 2 seconds by receiving a UART signal and sending an acknowledgment integer back over UART.
 
-- **SRS-03**
+**SRS-03**
 - After snack dispensing is initiated, the system shall detect a dispensed item within 15 cm of the distance sensor and confirm the dispense event within 10 seconds.
 
-- **SRS-04**
+**SRS-04**
 - The system shall transmit the selected snack index over UART to the motor controller within 2 seconds of receiving a motor request signal.
 
-- **SRS-05**
+**SRS-05**
 - The system shall display updated snack stock and balance information on the LCD screen within 3 seconds after a successful coin insertion and snack selection.
 
 - **Validation Proof:**
@@ -60,13 +60,13 @@ https://drive.google.com/file/d/1oSQscpiDDHZ8qvP-j2nmh_2r2TbfWnoP/view?usp=shari
 ![IMG_1672](https://github.com/user-attachments/assets/050a0c91-823d-4c59-8d10-8e8f168efbf7)
   
 ### HRS Validation
-- **HRS-01: Motor Control for Dispensing**  
+**HRS-01: Motor Control for Dispensing**  
 The motor activates upon when there is sufficient balance detected and spins at the desired PWM speed. It reliably stops within ±3 seconds of a snack being detected by the ultrasonic sensor, preventing double-dispensing.
 
-- **HRS-02: LCD Display Operation**  
+**HRS-02: LCD Display Operation**  
 - The LCD operates at 5V and displays clear, readable text within ±5% of the expected contrast level. Text updates are consistent and easily visible under normal lighting conditions.
 
-- **HRS-03: Ultrasonic Sensor**
+**HRS-03: Ultrasonic Sensor**
 - Detects dropped snacks effectively within a precise range of 5 cm, utilizing advanced UART communication technology to promptly stop the motor from dispensing any additional snacks when a drop is detected. This innovative feature ensures minimal waste and optimal snack management.
 Detects quarters as they roll down the ramp with a precise range of 4.5cm.
 
