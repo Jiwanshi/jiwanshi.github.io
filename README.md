@@ -1,4 +1,5 @@
-# smartsnacks.github.io
+title: Smart Snacks
+description: Vending made easy and accesible! 
 
 ## Final Project Report
 
