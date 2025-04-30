@@ -76,8 +76,6 @@ Detects quarters as they roll down the ramp with a precise range of 4.5cm.
 <img width="240" alt="Screenshot 2025-04-27 at 10 12 21 PM" src="https://github.com/user-attachments/assets/32341e1f-80a3-4e87-bbdf-82493365e56a" />
 
 ## Conclusion
-- **What did you learn from it?**  
-  
 - **What went well and what did you gain from the experience?**
 From this experience, we learned that adaptability is key in navigating the complexities of project planning. The necessity to pivot when faced with unexpected challenges pushed us to develop creative solutions and fostered a collaborative spirit among the team. Our collaboration was undoubtedly one of the highlights. Despite encountering tough situations such as encountering an error a few minutes away from the final demonstration, we managed to maintain clear communication and supported one another, ensuring that we solved the issue as soon as possible without losing momentum.
 
