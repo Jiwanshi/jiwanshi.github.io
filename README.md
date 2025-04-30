@@ -1,5 +1,6 @@
-title: Smart Snacks
-description: Vending made easy and accesible! 
+## title: Smart Snacks
+
+## description: Vending made easy and accesible! 
 
 ## Final Project Report
 
