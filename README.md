@@ -1,16 +1,15 @@
-## Smart Snacks
+# Smart Snacks
 
-# Vending made easy and accesible! 
+## Vending made easy and accesible! 
 
-## Final Project Report
+### Final Project Report
 
-## Final Product Video
+### Final Product Video
 
 https://drive.google.com/file/d/1lTHKj5yUkoilbuedlj4VtLLLDRASPVqX/view?usp=sharing
 https://drive.google.com/file/d/1oSQscpiDDHZ8qvP-j2nmh_2r2TbfWnoP/view?usp=sharing
 
-
-## Final Product Images
+### Final Product Images
 
 ![WhatsApp Image 2025-04-26 at 01 06 25](https://github.com/user-attachments/assets/9e2b2134-352b-40c7-85a2-186c6b5f2317)
 
@@ -24,22 +23,22 @@ https://drive.google.com/file/d/1oSQscpiDDHZ8qvP-j2nmh_2r2TbfWnoP/view?usp=shari
 
 <img width="834" alt="Screenshot 2025-04-26 at 11 21 08 PM" src="https://github.com/user-attachments/assets/6dc424a0-e471-4406-ae5e-6ec80e1fdcc1" />
 
-## Two Topics:
+### Two Topics:
 - Timers: Fast PWM for Motor Dispensing
 - Power Management: 10V Supply for Motors and 5V for ATMega
 - ADC: Ultrasonics for coin and snack detection and keypad
 
-## Input Device:
+### Input Device:
 - Ultrasonic Sensors
 
-## Output Device:  
+### Output Device:  
 - LCD Screen
 
-## Serial Communicaiton:  
+### Serial Communicaiton:  
 - LCD over I2C
 - UART between 2 ATMegas
 
-## SRS Validation
+### SRS Validation
 - **SRS-01**
 - The system shall detect user snack selection through a 3-key keypad and store the selection index within 5 seconds of keypress.
   
@@ -60,7 +59,7 @@ https://drive.google.com/file/d/1oSQscpiDDHZ8qvP-j2nmh_2r2TbfWnoP/view?usp=shari
 <img width="626" alt="Screenshot 2025-04-27 at 9 43 58 PM" src="https://github.com/user-attachments/assets/a4d4515a-b1e3-4f79-affb-f560387c238a" />
 ![IMG_1672](https://github.com/user-attachments/assets/050a0c91-823d-4c59-8d10-8e8f168efbf7)
   
-## HRS Validation
+### HRS Validation
 - **HRS-01: Motor Control for Dispensing**  
 The motor activates upon when there is sufficient balance detected and spins at the desired PWM speed. It reliably stops within ±3 seconds of a snack being detected by the ultrasonic sensor, preventing double-dispensing.
 
