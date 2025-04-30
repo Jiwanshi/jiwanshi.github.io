@@ -1,4 +1,4 @@
-#smartsnacks.github.io
+# smartsnacks.github.io
 
 ## Final Project Report
 
